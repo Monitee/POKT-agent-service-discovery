@@ -1,0 +1,1064 @@
+{
+  "_provenance": {
+    "network": "main",
+    "pocketd_version": "0.1.32",
+    "block_height_at_query": 780268,
+    "queried_utc_date": "2026-06-02",
+    "commands": [
+      "pocketd query service show-service ai-inference --network main --output json",
+      "pocketd query service all-services --dehydrated=false --network main --output json --page-limit 300"
+    ],
+    "note": "Raw responses preserved verbatim. show-service includes metadata by default; all-services run with --dehydrated=false to include metadata. Both returned no metadata fields."
+  },
+  "show_service_ai_inference": {
+    "service": {
+      "id": "ai-inference",
+      "name": "AI Inference",
+      "compute_units_per_relay": "400000",
+      "owner_address": "pokt1ke5x7jtcfcxargaahv4sglfr7dufjcqrrq5552"
+    }
+  },
+  "all_services_dehydrated_false": {
+    "service": [
+      {
+        "id": "agoric",
+        "name": "Agoric",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "ai-inference",
+        "name": "AI Inference",
+        "compute_units_per_relay": "400000",
+        "owner_address": "pokt1ke5x7jtcfcxargaahv4sglfr7dufjcqrrq5552"
+      },
+      {
+        "id": "akash",
+        "name": "Akash Network",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "aleph-im",
+        "name": "Aleph Cloud",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "alephzero",
+        "name": "AlephZero",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "allora",
+        "name": "Allora Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "arb-one",
+        "name": "Arbitrum One",
+        "compute_units_per_relay": "2733",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "arb-sepolia-testnet",
+        "name": "Arbitrum Sepolia Testnet",
+        "compute_units_per_relay": "2040",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "arb_one",
+        "name": "Arbitrum One",
+        "compute_units_per_relay": "2733",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "arb_sep_test",
+        "name": "Arbitrum Sepolia Testnet",
+        "compute_units_per_relay": "2040",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "archway",
+        "name": "Archway Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "arkeo",
+        "name": "Arkeo",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "atomone",
+        "name": "AtomOne",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "audio-text-to-text",
+        "name": "machine learning task of taking audio and a text prompt and generating a text",
+        "compute_units_per_relay": "400000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "avax-dfk",
+        "name": "DeFi Kingdoms",
+        "compute_units_per_relay": "659",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "avax-fuji-testnet",
+        "name": "Avalanche Fuji Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "avax",
+        "name": "Avalanche",
+        "compute_units_per_relay": "2733",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "babylon",
+        "name": "Babylon Genesis",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "base-sepolia-testnet",
+        "name": "Base Sepolia Testnet",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "base-test",
+        "name": "Base Testnet",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "base-testnet",
+        "name": "Base Testnet",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "base",
+        "name": "Base",
+        "compute_units_per_relay": "1232",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bera",
+        "name": "Berachain",
+        "compute_units_per_relay": "1000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bitcoin",
+        "name": "Bitcoin",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bittensor-testnet",
+        "name": "Bittensor Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bittensor",
+        "name": "Bittensor Mainnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bitway",
+        "name": "Bitway",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "blast-sepolia-testnet",
+        "name": "Blast Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "blast",
+        "name": "Blast",
+        "compute_units_per_relay": "2272",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "boba",
+        "name": "Boba",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "bsc",
+        "name": "BNB Smart Chain",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "celestia",
+        "name": "Celestia",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "celo",
+        "name": "Celo",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "centrifuge",
+        "name": "Centrifuge",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "cere",
+        "name": "Cere Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "cheqd",
+        "name": "Cheqd",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "chihuahua",
+        "name": "Chihuahua Chain",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "concordium",
+        "name": "Concordium",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "cosmoshub",
+        "name": "Cosmos Hub",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "deepseek",
+        "name": "Deepseek V3 0324",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "dungeon-chain",
+        "name": "Dungeon Chain",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "dymension",
+        "name": "Dymension",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "e-money",
+        "name": "e-Money",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "elys-network",
+        "name": "Elys Network",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "eth-beacon",
+        "name": "Ethereum Beacon Chain",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "eth-holesky-testnet",
+        "name": "Ethereum Holesky Testnet",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "eth-sepolia-testnet",
+        "name": "Ethereum Sepolia Testnet",
+        "compute_units_per_relay": "1000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "eth",
+        "name": "Ethereum",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "eth_hol_test",
+        "name": "Ethereum Holesky Testnet",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "eth_sep_test",
+        "name": "Ethereum Sepolia Testnet",
+        "compute_units_per_relay": "1000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "evmos",
+        "name": "Evmos",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "fantom",
+        "name": "Fantom",
+        "compute_units_per_relay": "2501",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "fetch",
+        "name": "ASI Alliance",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "filecoin",
+        "name": "Filecoin",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "flare",
+        "name": "Flare Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "flow",
+        "name": "Flow",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "fraxtal",
+        "name": "Fraxtal",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "fuse",
+        "name": "Fuse",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "giwa-sepolia-testnet",
+        "name": "Global Infrastructure for Web3 Access Sepolia Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "giwa-sepolia",
+        "name": "Global Infrastructure for Web3 Access Sepolia Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "giwa",
+        "name": "Global Infrastructure for Web3 Access",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "gnosis",
+        "name": "Gnosis",
+        "compute_units_per_relay": "1118",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "gpt-oss",
+        "name": "GPT OSS",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "grok",
+        "name": "Grok",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "harmony",
+        "name": "Harmony Shard 0",
+        "compute_units_per_relay": "5033",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "hedera",
+        "name": "Hedera",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "hey",
+        "name": "Grove hey Service",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "hopr",
+        "name": "HOPRnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "hyperliquid",
+        "name": "Hyperliquid",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "image-classification",
+        "name": "machine learning task of assigning a label or class to an entire image - Only one class per image is expected",
+        "compute_units_per_relay": "25000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "image-text-to-text",
+        "name": "machine learning task of taking an image and a text prompt and generating a text - Visual language models of medium size are included here",
+        "compute_units_per_relay": "500000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "image-to-text",
+        "name": "machine learning task of generating output text from an input image - this is used for image captioning",
+        "compute_units_per_relay": "65123",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "initia",
+        "name": "Initia",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "injective",
+        "name": "Injective Protocol",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "ink",
+        "name": "Ink",
+        "compute_units_per_relay": "1118",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "iotex",
+        "name": "IoTeX",
+        "compute_units_per_relay": "1347",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "ixo",
+        "name": "IXO",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "jackal",
+        "name": "Jackal Protocol",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "juno",
+        "name": "Juno Network",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "kaia",
+        "name": "Kaia",
+        "compute_units_per_relay": "5033",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "kava",
+        "name": "Kava",
+        "compute_units_per_relay": "3653",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "koii",
+        "name": "Koii Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "kyve",
+        "name": "Kyve Network",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "linea",
+        "name": "Linea",
+        "compute_units_per_relay": "1118",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "manta",
+        "name": "Manta Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "mantle",
+        "name": "Mantle",
+        "compute_units_per_relay": "1232",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "mantra",
+        "name": "Mantra",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "mask-generation",
+        "name": "machine learning task of generating masks that identify a specific object or region of interest in a given image",
+        "compute_units_per_relay": "50000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "maya",
+        "name": "Maya Protocol",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "metis",
+        "name": "Metis",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "mina",
+        "name": "Mina Protocol",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "moonbeam",
+        "name": "Moonbeam",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "moonriver",
+        "name": "Moonriver",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "namada",
+        "name": "Namada",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "near",
+        "name": "NEAR",
+        "compute_units_per_relay": "5033",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "neutron",
+        "name": "Neutron",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "nibiru",
+        "name": "Nibiru Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "nillion",
+        "name": "Nillion",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "oasys",
+        "name": "Oasys",
+        "compute_units_per_relay": "1347",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "object-detection",
+        "name": "machine learning task of identifying objects of certain defined classes in the input image",
+        "compute_units_per_relay": "35000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "op-sepolia-testnet",
+        "name": "Optimism Sepolia Testnet",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "op",
+        "name": "Optimism",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "op_sep_test",
+        "name": "Optimism Sepolia Testnet",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "opbnb",
+        "name": "opBNB",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "optical-character-recognition",
+        "name": "machine learning task of transcribing any text included in the input image - OCRs of any kind",
+        "compute_units_per_relay": "50000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "osmosis",
+        "name": "Osmosis",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "paloma",
+        "name": "Paloma",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "passage",
+        "name": "Passage",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "penumbra",
+        "name": "Penumbra",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "persistence",
+        "name": "Persistence",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "planq",
+        "name": "Planq Mainnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "pocket-alpha",
+        "name": "Pocket Network Alpha TestNet",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt18808wvw0h4t450t06uvauny8lvscsxjfyua7vh"
+      },
+      {
+        "id": "pocket-beta",
+        "name": "Pocket Network Beta TestNet",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt18808wvw0h4t450t06uvauny8lvscsxjfyua7vh"
+      },
+      {
+        "id": "pocket",
+        "name": "Pocket Network",
+        "compute_units_per_relay": "1000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "polkadex",
+        "name": "Polkadex",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "poly-amoy-testnet",
+        "name": "Polygon Amoy Testnet",
+        "compute_units_per_relay": "1118",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "poly-zkevm",
+        "name": "Polygon zkEVM",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "poly",
+        "name": "Polygon",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "poly_amoy_test",
+        "name": "Polygon Amoy Testnet",
+        "compute_units_per_relay": "1118",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "poly_zkevm",
+        "name": "Polygon zkEVM",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "provenance",
+        "name": "Provenance",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "quicksilver",
+        "name": "Quicksilver Protocol",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "qwen",
+        "name": "Qwen",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "radix",
+        "name": "Radix",
+        "compute_units_per_relay": "886",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "router",
+        "name": "Router Protocol",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "rpc1",
+        "name": "json-rpc endpoint",
+        "compute_units_per_relay": "13",
+        "owner_address": "pokt1aqps7hzwuhgfe7gvv6u9tk2vj3ph5lsprygkpr"
+      },
+      {
+        "id": "scroll-sepolia-testnet",
+        "name": "Scroll Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "scroll",
+        "name": "Scroll",
+        "compute_units_per_relay": "1232",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "secret",
+        "name": "Secret Network",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "seda",
+        "name": "Seda Protocol",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "sei-testnet",
+        "name": "Sei Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "sei",
+        "name": "Sei",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "selfchain",
+        "name": "Selfchain",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "sentence-similarity",
+        "name": "machine learning task of determining how similar two texts are - used in information retrieval",
+        "compute_units_per_relay": "50000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "sentinel",
+        "name": "Sentinel",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "shentu",
+        "name": "Shentu Chain",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "side-protocol",
+        "name": "Side Protocol",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "sifchain",
+        "name": "Sifchain",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "solana",
+        "name": "Solana",
+        "compute_units_per_relay": "5033",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "soneium",
+        "name": "Soneium",
+        "compute_units_per_relay": "2000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "sonic",
+        "name": "Sonic",
+        "compute_units_per_relay": "1000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "sonieum",
+        "name": "Soneium",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "stargaze",
+        "name": "Stargaze",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "stellar-horizon-testnet",
+        "name": "Stellar Horizon Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "stellar-horizon",
+        "name": "Stellar Horizon Mainnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "stellar-soroban-testnet",
+        "name": "Stellar Soroban Testnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "stellar-soroban",
+        "name": "Stellar Soroban Mainnet",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "stride",
+        "name": "Stride",
+        "compute_units_per_relay": "6188",
+        "owner_address": "pokt1martg35uqv4pjp6dr8ncnmaqynqaxz9tmp48vz"
+      },
+      {
+        "id": "sui",
+        "name": "Sui",
+        "compute_units_per_relay": "2733",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "supra",
+        "name": "Supra",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "svc-poktminer",
+        "name": "service description poktminer",
+        "compute_units_per_relay": "1",
+        "owner_address": "pokt15p8tzkwkptla4r29lnsq6guu8zgvt2l90pej40"
+      },
+      {
+        "id": "syscoin",
+        "name": "Syscoin",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "taiko-hekla-testnet",
+        "name": "Taiko Hekla Testnet",
+        "compute_units_per_relay": "495",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "taiko",
+        "name": "Taiko",
+        "compute_units_per_relay": "2733",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "taiko_hek_test",
+        "name": "Taiko Hekla Testnet",
+        "compute_units_per_relay": "495",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "text-generation",
+        "name": "machine learning task of generating text given another text - Large language models of medium size are included here",
+        "compute_units_per_relay": "300000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "text-ranking",
+        "name": "machine learning task of ranking a set of texts based on their relevance to a query - used in information retrieval and search engines",
+        "compute_units_per_relay": "50000",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "text-to-image",
+        "name": "machine learning task of generating images from the input text and_or images - diffusers VAEs GANs are all included here",
+        "compute_units_per_relay": "65123",
+        "owner_address": "pokt1lh9lp8x6ws7qezs87nd0vqv95svt2wwkyw2h0l"
+      },
+      {
+        "id": "tron",
+        "name": "TRON",
+        "compute_units_per_relay": "1347",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "unichain",
+        "name": "Unichain The DeFi Chain by Uniswap",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "union",
+        "name": "Union",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "vector-memory",
+        "name": "Vector Memory",
+        "compute_units_per_relay": "25000",
+        "owner_address": "pokt1ke5x7jtcfcxargaahv4sglfr7dufjcqrrq5552"
+      },
+      {
+        "id": "web-search",
+        "name": "Web Search",
+        "compute_units_per_relay": "50000",
+        "owner_address": "pokt1ke5x7jtcfcxargaahv4sglfr7dufjcqrrq5552"
+      },
+      {
+        "id": "xrpl_evm_dev",
+        "name": "XRPL EVM Devnet",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "xrpl_evm_test",
+        "name": "XRPL EVM Testnet",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "xrplevm-grove-only",
+        "name": "XRPLEVM-Grove-Test",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "xrplevm-testnet",
+        "name": "XRPLEVM Testnet",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "xrplevm",
+        "name": "XRPLEVM",
+        "compute_units_per_relay": "1579",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "zircuit",
+        "name": "Zircuit",
+        "compute_units_per_relay": "5000",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "zklink-nova",
+        "name": "zkLink Nova",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "zklink_nova",
+        "name": "zkLink Nova",
+        "compute_units_per_relay": "1808",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "zksync-era",
+        "name": "zkSync Era",
+        "compute_units_per_relay": "3882",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      },
+      {
+        "id": "zksync_era",
+        "name": "zkSync Era",
+        "compute_units_per_relay": "3882",
+        "owner_address": "pokt1lf0kekv9zcv9v3wy4v6jx2wh7v4665s8e0sl9s"
+      }
+    ],
+    "pagination": {}
+  }
+}

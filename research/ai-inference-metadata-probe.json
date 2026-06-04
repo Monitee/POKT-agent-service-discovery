@@ -1,0 +1,6 @@
+{
+  "description": "Decentralized AI inference gateway — OpenAI-compatible chat completions routed through POKT. BYOM: bring your own model/backend.",
+  "version": "interim-probe-2026-06",
+  "endpoints": { "chat": "/v1/chat/completions" },
+  "note": "Interim read-path probe. Not the agent-discovery convention — to be replaced by the convention-conformant descriptor in Phase 2."
+}

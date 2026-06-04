@@ -1,0 +1,8 @@
+{
+  "service": {
+    "id": "ai-inference",
+    "name": "AI Inference",
+    "compute_units_per_relay": "400000",
+    "owner_address": "pokt1ke5x7jtcfcxargaahv4sglfr7dufjcqrrq5552"
+  }
+}
