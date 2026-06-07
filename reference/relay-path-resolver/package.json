@@ -1,0 +1,18 @@
+{
+  "name": "pokt-relay-path-resolver",
+  "version": "0.1.0",
+  "description": "Resolve a POKT service ID to how an agent can reach it: who serves it (suppliers), and the two access paths POKT offers — DIRECT (be your own staked app) and GATEWAY (use a gateway's app). A service with suppliers is callable; the resolver surfaces both paths and, given an agent profile, recommends one. Reference tool for the Agent-Native Service Discovery convention.",
+  "main": "src/index.js",
+  "bin": {
+    "resolve-relay-path": "bin/resolve.js"
+  },
+  "scripts": {
+    "resolve": "node bin/resolve.js"
+  },
+  "keywords": ["pokt", "pocket-network", "service-discovery", "relay", "agents"],
+  "license": "CC0-1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
