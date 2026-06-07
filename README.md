@@ -28,6 +28,10 @@ A thin JSON descriptor in `experimental_api_specs` carries what an agent needs: 
 
 The full design is in [`SPEC.md`](./SPEC.md).
 
+## Reference implementation
+
+A reference implementation of the **relay-path resolution layer** — the schema-independent part of the convention — lives in [`reference/relay-path-resolver/`](./reference/relay-path-resolver/). Given a service ID, it resolves how an agent actually reaches a service from on-chain topology: who serves it (suppliers), and the two access paths POKT offers — direct self-stake, or a gateway — confirming reachability with category-aware probes. The descriptor/metadata layer is intentionally deferred, pending the v0.2 discussion in the open [issues](../../issues).
+
 ## Relationship to ERC-8004
 
 This is the **discovery / service-capability** layer, and it complements ERC-8004's trust layers rather than duplicating them. ERC-8004 answers *who is this agent and can I trust it* (identity, reputation, validation); this convention answers *what does this service do and how do I call it*. The two compose cleanly: an agent discovers and calls a self-describing service through this convention, and leans on the ERC-8004 trust layers — including POKT's proposal that turns the supplier set into a multi-validator validation network — for trust.
